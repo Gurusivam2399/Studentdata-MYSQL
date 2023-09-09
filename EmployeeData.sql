@@ -1,6 +1,6 @@
 create database Employee_Info;
 
-use employee_info;
+use Employee_info;
 /* we can't delete the parent(parent query -branch) before employee drop the 
    child query (child-employee) 
    we can also make loop in the method 
