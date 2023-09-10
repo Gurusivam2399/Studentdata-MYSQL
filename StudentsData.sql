@@ -91,6 +91,7 @@ select stname, left(department,2) from student ;
 
 select*from student order by department; -- to make order in the list 
 
+-- group
 -- group  are used for filter list to user demand
 select department,avg(prize_amount)  -- to make group to given column
 from student group by department; 
